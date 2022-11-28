@@ -1,0 +1,34 @@
+.service-box:after{
+background: #0084d1;
+width: 60px;
+height: 60px;
+border-radius: 10px 0 150% 0;
+position: absolute;
+top: 0;
+left: 0;
+right: auto;
+bottom: auto;
+content: "";
+	z-index:-1;
+}
+.service-box:before{
+content: "";
+background: linear-gradient(to right bottom,#fff,#eee);
+border-radius: 10px 10px 80px 10px;
+position: absolute;
+top: 4px;
+left: 4px;
+right: 1px;
+bottom: 1px;
+z-index: -1;
+}
+.service-box {
+	color: #0084d1;
+	background: #0084d1;
+	text-align: center;
+	padding: 25px 20px;
+	border-radius: 10px;
+	position: relative;
+	z-index: 1;
+    min-height: 560px;
+}
